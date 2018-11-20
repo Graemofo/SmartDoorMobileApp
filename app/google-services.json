@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "186419306764",
+    "firebase_url": "https://smartdoormobileapp.firebaseio.com",
+    "project_id": "smartdoormobileapp",
+    "storage_bucket": "smartdoormobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186419306764:android:d6c750f7c3780600",
+        "android_client_info": {
+          "package_name": "com.nci.graeme.smartdoormobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186419306764-ae7hjrlvt4ifub3bvc6gtknd3nlseaft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nci.graeme.smartdoormobileapp",
+            "certificate_hash": "a68000128659e48f22de13e0c155a442a0087674"
+          }
+        },
+        {
+          "client_id": "186419306764-ls4gaaq4jaraidcbr7rmsmef5ib8nenq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtJlIzMin-kal8H3DVWePhQjDWJDp7ViI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186419306764-ls4gaaq4jaraidcbr7rmsmef5ib8nenq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
