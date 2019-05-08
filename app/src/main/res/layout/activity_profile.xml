@@ -52,25 +52,50 @@
                 android:background="@android:color/holo_blue_dark"
                 android:text="Logout" />
             <Button
-                android:id="@+id/answerCall"
+                android:id="@+id/createDataset"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:background="@android:color/holo_blue_dark"
-                android:text="Answer Call" />
+                android:text="Create" />
 
 
         </LinearLayout>
 
+        <ImageView
+            android:id="@+id/imageViewer"
+            android:layout_width="400dp"
+            android:layout_height="350dp" />
 
 
-        <WebView
-            android:id="@+id/webview"
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/colorPrimary" >
-        </WebView>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Enter Name: "
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/getName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@android:color/holo_orange_dark" />
+
 
     </LinearLayout>
 </RelativeLayout>

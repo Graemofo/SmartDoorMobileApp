@@ -3,10 +3,8 @@
 
     <item
         android:drawable="@color/colorAccent"/>
-
     <item>
         <bitmap
-            
             android:gravity="center"
             android:src="@drawable/smartdoor"/>
     </item>
